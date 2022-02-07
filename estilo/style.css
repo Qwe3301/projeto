@@ -1,0 +1,75 @@
+@charset "UTF-8";
+   
+    @import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Short+Stack&display=swap');
+    @font-face {
+        font-family: 'a';
+        src: url('../fontes/1.ttf') format('truetype');
+        font-weight: normal;
+        
+    }
+   :root{
+       --cor0: #D48A00;
+       --cor1: #f7d28d;
+       --cor2: #BA57F2;
+       --cor3: #88F2BA;
+     }
+   
+   
+    body{
+        background-color: rgb(0, 0, 0);
+
+        
+    }
+    header{
+        background-color: rgb(0, 0, 0);
+    }
+    h1#titulo{
+        font-family:'a';
+        text-align: center;
+        font-size: 7em;
+        color: var(--cor0);
+        margin: 10px;
+    }
+    main{
+        margin: auto;
+        height:auto;
+        min-width:300px ;
+        max-width: 1000px;
+        background-color: var(--cor1);
+        padding: 10px;
+        border-radius: 10px;
+        font-family: 'short stack',Verdana, Tahoma, sans-serif;
+    
+    }
+    article{
+        text-align: justify;
+        text-indent: 40px;
+    }
+
+    footer{
+        background-color: var(--cor1);
+        min-width:300px ;
+        max-width: 1000px;
+        margin: auto;
+        padding: 10px;
+        border: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    img {
+        width: 300px;
+        height: 300px;
+        float: right;
+        padding: 20px;
+    }
+
+    @media (max-width:700px){
+        item-section,img{
+            float:none;
+            display: block;
+            margin: auto;
+        }
+    }
+
